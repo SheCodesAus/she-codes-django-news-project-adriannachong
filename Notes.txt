@@ -1,0 +1,9 @@
+To activate virtualenv in terminal:
+    source venv/bin/activate
+
+Default django project page:
+    http://localhost:8000/ 
+
+When making changes to any '.py' file must make migrations
+    python3 manage.py makemigrations
+    python3 manage.py migrate
