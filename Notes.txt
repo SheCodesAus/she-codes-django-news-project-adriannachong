@@ -10,3 +10,7 @@ When making changes to any '.py' file must make migrations
 
 Remember to run server when making changes and following the steps
     python3 manage.py runserver
+
+https://shecodes-news-2023-dec.herokuapp.com/
+username:
+pw: 
