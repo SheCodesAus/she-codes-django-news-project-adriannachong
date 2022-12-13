@@ -1,6 +1,8 @@
 {% extends "base.html" %}
 {% load static %}
 
+<a href="{% url 'news:newStory' %}">Write New Story</a>
+
 {% block stylesheets %}
 <link rel="stylesheet" type="text/css" href="{% static 'news/styles.css' %}">
 {% endblock %}
@@ -31,3 +33,5 @@
             <p>No stories are available.</p>
         {% endif %}
     </div>
+
+{% endblock %}

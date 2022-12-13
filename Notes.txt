@@ -7,3 +7,6 @@ Default django project page:
 When making changes to any '.py' file must make migrations
     python3 manage.py makemigrations
     python3 manage.py migrate
+
+Remember to run server when making changes and following the steps
+    python3 manage.py runserver
